@@ -10,7 +10,8 @@ import org.testng.annotations.Test;
 
 public class BrowserParamater {
 	WebDriver driver;
-
+//THIS IS A SAMPLE CHECK TO SEE IF THE GIT DOWNLOAD IS WORKING FINE-AKAY217
+	
 	@Test
 	@Parameters("browser")
 	public void browserTest(String browser) throws InterruptedException
